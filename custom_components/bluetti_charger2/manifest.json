@@ -1,0 +1,17 @@
+{
+  "domain": "bluetti_charger2",
+  "name": "Bluetti Charger 2 Control",
+  "bluetooth": [],
+  "codeowners": ["@haaaarps"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/haaaarps/hass-bluetti-charger2",
+  "issue_tracker": "https://github.com/haaaarps/hass-bluetti-charger2/issues",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [
+    "bluetti-bt-lib @ git+https://github.com/sidieje/bluetti-bt-lib.git@ha-deployment",
+    "bleak-retry-connector>=3.5.0"
+  ],
+  "version": "0.1.0"
+}

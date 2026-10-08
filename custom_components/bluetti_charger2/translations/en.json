@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bluetti Charger 2 control",
+        "description": "Bluetooth address of the Charger 2. Close the Bluetti app on any phone nearby first.",
+        "data": { "address": "Bluetooth address" }
+      }
+    },
+    "abort": { "already_configured": "This charger is already set up." }
+  },
+  "entity": {
+    "switch": { "charging": { "name": "Charging" } },
+    "sensor": {
+      "starter_voltage": { "name": "Starter battery voltage" },
+      "alternator_current": { "name": "Alternator current" },
+      "alternator_power": { "name": "Alternator power" },
+      "dc_input_voltage": { "name": "DC input voltage" },
+      "dc_input_current": { "name": "DC input current" },
+      "dc_input_power": { "name": "DC input power" },
+      "output_voltage": { "name": "Output voltage" },
+      "output_current": { "name": "Output current" },
+      "output_power": { "name": "Output power" }
+    }
+  }
+}
